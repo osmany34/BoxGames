@@ -29,7 +29,7 @@ public class Fighter {
     }
 
     public boolean dodge() {
-        double randomValue = Math.random() * 100;  //0.0 to 99.9
-        return randomValue <= this.dodge;
+        double randomValue = Math.random() * 100;  // 0.0 ile 99.9 arasında rastgele bir sayı üretir
+        return randomValue <= this.dodge; // Eğer üretilen sayı, dövüşçünün kaçma olasılığına eşit veya küçükse true döner, aksi halde false döner
     }
 }
